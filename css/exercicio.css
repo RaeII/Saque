@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#form_saque{
+    width: 720px;
+    height:420px;
+    text-align: center;
+    box-shadow: 1px 9px 25px 0px rgba(50, 50, 50, 0.54);
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+#form_saque > input{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 90px;
+    font-size: 1.2rem;
+}
+#resultado_saque{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+ button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: #222;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px  20px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+
